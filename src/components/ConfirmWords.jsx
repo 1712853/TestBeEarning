@@ -37,7 +37,7 @@ const ConfirmWords = ({ primaryIndex, list }) => {
           borderRadius: "50%",
         }}
       >
-        {primaryIndex}
+        {primaryIndex+1}
       </Typography>
       <ToggleButtonGroup
         sx={{ flex: 1, display: "flex", justifyContent: "space-between" }}

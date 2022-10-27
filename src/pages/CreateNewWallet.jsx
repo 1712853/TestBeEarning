@@ -47,9 +47,16 @@ const CreateNewWallet = () => {
     }
     setWords(arrTemp);
   }, []);
-  useEffect(() => {
-    console.log(words);
-  });
+  // useEffect(() => {
+  //   async function fetchData()
+  //   {
+  //     const url = 'http://metanode.co/json/eng.json';
+  //     const res = await fetch(url);
+  //     const resJSON = await res.json();
+  //     console.log(resJSON)
+  //   }
+  //   fetchData();
+  // },[])
   return (
     <Box
       p={{ xs: 2, sm: 3, md: 5, lg: 7, xl: 9 }}
